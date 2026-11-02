@@ -1,0 +1,254 @@
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF8F0;
+    color: #2C1810;
+    line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #8B4513;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    color: #FFF8F0;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block !important;
+}
+
+nav ul li a {
+    color: #FFF8F0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #D2691E;
+    border-radius: 5px;
+}
+
+/* ===== HERO ===== */
+#hero {
+    background-color: #D2691E;
+    color: #FFF8F0;
+    text-align: center;
+    padding: 80px 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    background-color: #C0392B;
+    color: #FFF8F0;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #A93226;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #8B4513;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* ===== PRODUCT GRID ===== */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.product-item {
+    background-color: #FFFFFF;
+    border: 1px solid #F5DEB3;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+}
+
+.price {
+    color: #C0392B;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8B4513;
+    color: #FFF8F0;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #D2691E;
+}
+
+/* ===== FORMS ===== */
+form {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #F5DEB3;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #F5DEB3;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* ===== CONTACT ===== */
+.contact-details {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #F5DEB3;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.contact-details h3 {
+    margin-top: 15px;
+    color: #8B4513;
+}
+
+/* ===== LOCATIONS ===== */
+#location1, #location2 {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #F5DEB3;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #2C1810;
+    color: #FFF8F0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    #hero h1 {
+        font-size: 2em;
+    }
+    
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* ===== FIX NAVIGATION - HORIZONTAL ===== */
+nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    list-style: none !important;
+    gap: 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+nav ul li {
+    display: inline-block !important;
+}
+
+nav ul li a {
+    display: block !important;
+    padding: 5px 10px !important;
+    color: #FFF8F0 !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+}

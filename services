@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Glenda's Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Glenda's Bakery Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Products</a></li>
+                <li><a href="enquiry.html">Order/Enquire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="page-header">
+        <h1>Our Products</h1>
+        <p>Freshly baked goods made with love and the finest ingredients</p>
+    </section>
+
+    <section id="products">
+        <div class="product-category">
+            <h2>Artisanal Breads</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/sourdough.jpg" alt="Sourdough">
+                    <h3>Sourdough</h3>
+                    <p>Traditional sourdough with a crispy crust</p>
+                    <p class="price">R45</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/brown-bread.jpg" alt="Brown Bread">
+                    <h3>Brown Bread</h3>
+                    <p>Wholesome and hearty brown bread</p>
+                    <p class="price">R20</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/ciabatta.jpg" alt="Ciabatta">
+                    <h3>Ciabatta</h3>
+                    <p>Italian-style flat bread with a crispy crust</p>
+                    <p class="price">R35</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-category">
+            <h2>Celebration Cakes</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/birthday-cake.jpg" alt="Birthday Cake">
+                    <h3>Birthday Cakes</h3>
+                    <p>Custom cakes for any celebration</p>
+                    <p class="price">From R350</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/wedding-cake.jpg" alt="Wedding Cake">
+                    <h3>Wedding Cakes</h3>
+                    <p>Elegant cakes for your special day</p>
+                    <p class="price">From R800</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/cupcakes.jpg" alt="Cupcakes">
+                    <h3>Cupcakes</h3>
+                    <p>Delicious cupcakes in various flavours</p>
+                    <p class="price">From R25</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-category">
+            <h2>Pastries & Treats</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/croissant.jpg" alt="Croissant">
+                    <h3>Croissants</h3>
+                    <p>Buttery, flaky French croissants</p>
+                    <p class="price">R18</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/danish.jpg" alt="Danish">
+                    <h3>Danish Pastries</h3>
+                    <p>Sweet pastries with fruit filling</p>
+                    <p class="price">R15</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/muffin.jpg" alt="Muffin">
+                    <h3>Muffins</h3>
+                    <p>Freshly baked muffins in various flavours</p>
+                    <p class="price">R12</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Glenda's Bakery. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
